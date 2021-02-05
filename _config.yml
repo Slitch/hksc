@@ -1,3 +1,23 @@
+# Site settings
+lang: da
+languages: ["da", "en"] 
+title: "Helsingør Kampsportscenter" # the name of your site, e.g. ACME Corp.
+email: kontakt@kampsportcenter.dk
+phone: 12345678
+description: kampsport
+tagline: Helsingør Kampsportscenter
+locale: da_DK
+
+
+
+
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+sass:
+    style: compressed
